@@ -17,6 +17,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_ins
 
 <h2>Зв'язатися зі мною</h2>
 <nav>
-<li><a href='https://github.com/deadboizxc'>deadboizxc</a></li>
-<li><a href='http://t.me/deadboizxc'>deadboizxc</a></li>
+<li><a href='https://github.com/deadboizxc'>GitHub</a></li>
+<li><a href='http://t.me/deadboizxc'>Telegram</a></li>
 </nav>
