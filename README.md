@@ -1,6 +1,6 @@
-<h2>Скрипти для встановлення сервера Minecraft PaperMC і ngrok в Termux на базі proot-distro</h2>
+<h2>Скрипти для встановлення сервера Minecraft в Termux на базі proot-distro або Linux</h2>
 
-Цей репозиторій містить скрипти для автоматизації установки сервера Minecraft і ngrok в Termux. Виконайте вказівки нижче, щоб встановити та настроїти сервер.
+Цей репозиторій містить скрипти для автоматизації установки серверів Minecraft в Termux чи Linux. Виконайте вказівки нижче, щоб встановити та настроїти сервер.
 
 <h2>Установка бібліотек Termux</h2>
 
@@ -8,7 +8,7 @@
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_installer/master/termux.sh)"
 ````
 
-<h2>Усередині proot-distro</h2>
+<h2>Усередині proot-distro / Linux</h2>
 
 ````
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_installer/master/server-install.sh)"
