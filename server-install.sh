@@ -12,7 +12,7 @@ print_color_text() {
 # Оновлення системи
 clear
 print_color_text "Оновлення системи..." "\e[36m"
-apt update && apt upgrade -y
+apt update
 sleep 1
 clear
 
