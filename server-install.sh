@@ -12,13 +12,13 @@ print_color_text() {
 # Оновлення системи
 clear
 print_color_text "Оновлення системи..." "\e[36m"
-apt update && apt upgrade -y
+sudo apt update
 sleep 1
 clear
 
 # Встановлення OpenJDK та wget
 print_color_text "Встановлення OpenJDK та wget..." "\e[36m"
-apt install openjdk-17-jdk wget jq nano -y
+sudo apt install openjdk-17-jdk wget jq nano -y
 sleep 1
 clear
 
@@ -66,7 +66,7 @@ case $server_core in
     sleep 1
     clear
     print_color_text "Завантаження Minecraft версії $minecraft_version з ядром $server_core_name..." "\e[36m"
-    if ! wget -O "$HOME/$SERVER_DIR/server.jar" "$minecraft_url"; then
+    if ! sudo wget -O "$HOME/$SERVER_DIR/server.jar" "$minecraft_url"; then
         print_color_text "Помилка при завантаженні сервера Minecraft." "\e[31m"
         exit 1
     fi
@@ -98,7 +98,7 @@ case $server_core in
     clear
 
     print_color_text "Завантаження версії $minecraft_version Purpur..." "\e[36m"
-    if ! wget -O "$HOME/$SERVER_DIR/server.jar" "$purpur_url"; then
+    if ! sudo wget -O "$HOME/$SERVER_DIR/server.jar" "$purpur_url"; then
         print_color_text "Помилка при завантаженні сервера Minecraft." "\e[31m"
         exit 1
     fi
