@@ -118,4 +118,4 @@ clear
 
 # Інструкції для запуску сервера
 print_color_text "Для запуску сервера виконайте наступну команду:" "\e[36m"
-print_color_text "java -jar $HOME/$SERVER_DIR/server.jar" "\e[91m"
+print_color_text "cd $HOME/$SERVER_DIR && java -jar server.jar" "\e[91m"
