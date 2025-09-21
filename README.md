@@ -5,13 +5,13 @@
 ## Установка бібліотек Termux
 
 ```` shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_installer/master/termux.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_installer/main/termux.sh)"
 ````
 
 ## Усередині proot-distro / Linux
 
 ```` shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_installer/master/server-install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/deadboizxc/mc_server_installer/main/server-install.sh)"
 ````
 
 
